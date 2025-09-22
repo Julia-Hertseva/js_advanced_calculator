@@ -1,7 +1,5 @@
 'use strict';
 
-// const { callback } = require('chart.js/helpers');
-
 /**
  * @return {object}
  */
@@ -26,27 +24,25 @@ function makeCalculator() {
   }
 
   function add(num) {
-    result += num;
-
-    return result;
+    return result + num;
   }
 
   function subtract(num) {
-    result = result - num;
+    // result -= num;
 
-    return result;
+    return result - num;
   }
 
   function divide(num) {
-    result = result / num;
+    // result /= num;
 
-    return result;
+    return result / num;
   }
 
   function multiply(num) {
-    result = result * num;
+    // result *= num;
 
-    return result;
+    return result * num;
   }
 
   function reset() {
