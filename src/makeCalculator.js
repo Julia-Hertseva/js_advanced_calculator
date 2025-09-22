@@ -28,21 +28,21 @@ function makeCalculator() {
   }
 
   function subtract(num) {
-    // result -= num;
+    result -= num;
 
-    return result - num;
+    return result;
   }
 
   function divide(num) {
-    // result /= num;
+    result = result / num;
 
-    return result / num;
+    return result;
   }
 
   function multiply(num) {
-    // result *= num;
+    result = result * num;
 
-    return result * num;
+    return result;
   }
 
   function reset() {
